@@ -56,7 +56,7 @@ function setup(){
     // Code for ball
     var ball_options ={
         isStatic: false,
-        restitution: 2
+        restitution: 4
     }
 
     ball = Bodies.circle(575,100,20, ball_options);
